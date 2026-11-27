@@ -11,7 +11,7 @@ class FrequencyCounter {
         std::uint64_t totalBytes;
 
     public:
-        FrequencyCounter() {}
+        FrequencyCounter();
         void contar(const std::string& caminho);
         std::uint64_t getFrequencia(unsigned char byte) const;
         std::uint64_t getTotalBytes() const;
