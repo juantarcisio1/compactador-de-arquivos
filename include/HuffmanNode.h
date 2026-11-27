@@ -1,12 +1,12 @@
-#include <cstdint>
-
 #ifndef HUFFMAN_NODE
 #define HUFFMAN_NODE
+
+#include <cstdint>
 
 class HuffmanNode {
     public:
         unsigned char caractere;
-        uint64_t freq;
+        std::uint64_t freq;
         HuffmanNode* esquerda;
         HuffmanNode* direita;
 
